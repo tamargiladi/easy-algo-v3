@@ -1,0 +1,37 @@
+.easy-algo-home-page {
+    
+    width: 100%;
+    background: rgb(18, 101, 5);
+    height: fit-content;
+    
+    
+
+    span {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-weight: 800;   
+        display: block;
+        padding: 24px; 
+    }
+
+    &__categories-container {
+        background: yellowgreen;
+        height: fit-content;
+        padding: 24px;
+        justify-content: center;
+        display: flex;;
+        gap: 24px;
+        button {
+            font-size: x-large;
+            padding: 12px;
+            background-color: white;;
+            border: 0;
+            font-weight: 600;
+
+            &:hover {
+                background-color: yellow;
+            }
+        }
+    }
+}

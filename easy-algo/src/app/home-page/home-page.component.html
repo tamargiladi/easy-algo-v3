@@ -1,0 +1,18 @@
+<div class="easy-algo-home-page">
+    <span>EasyAlgo</span>
+    <div class="easy-algo-home-page__categories-container">
+        @for (item of algorithmItems; track item) {
+            <button [value]="item">{{item}}</button>
+         }
+    </div>
+</div>
+<div class="algorithm-container">
+    @switch (selecedItem) {
+        @case ("Merge Sort") {
+            <app-merge-sort-algo></app-merge-sort-algo>
+        }
+        @case ("blue") {
+            <div>Blue</div>
+        }
+    }
+</div>
